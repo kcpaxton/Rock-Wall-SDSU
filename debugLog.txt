@@ -1,0 +1,28 @@
+2017-02-19 23:59:28: Begin index page
+2017-02-20 00:00:44: Begin index page
+2017-02-20 00:04:52: Begin index page
+2017-02-20 00:04:57: Begin index page
+2017-02-20 00:05:08: Begin Login Attempt...
+2017-02-20 00:05:08: Login Attempt: administrator administrator employee
+2017-02-20 00:05:18: Begin Login Attempt...
+2017-02-20 00:05:18: Login Attempt: master mastER master
+2017-02-20 00:05:24: Begin Login Attempt...
+2017-02-20 00:05:24: Login Attempt: master master employee
+2017-02-20 00:05:31: Begin Login Attempt...
+2017-02-20 00:05:31: Login Attempt: master master master
+2017-02-20 00:05:31: Begin index page
+2017-02-20 00:05:34: Begin index page
+2017-02-20 00:08:56: Begin index page
+2017-02-20 00:08:56: Begin index page
+2017-02-22 10:29:57: Begin index page
+2017-02-22 10:30:14: Begin Login Attempt...
+2017-02-22 10:30:14: Login Attempt: employee employee employee
+2017-02-22 10:30:14: Begin index page
+2017-02-22 10:30:16: Begin index page
+2017-02-22 16:59:42: Begin index page
+2017-02-22 16:59:50: Begin Login Attempt...
+2017-02-22 16:59:50: Login Attempt: employee employee administrator
+2017-02-22 16:59:57: Begin Login Attempt...
+2017-02-22 16:59:57: Login Attempt: employee employee employee
+2017-02-22 16:59:57: Begin index page
+2017-02-22 17:00:02: Begin index page

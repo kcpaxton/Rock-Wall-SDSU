@@ -1,0 +1,21 @@
+
+<form class="pure-form" action="/createAccount" method="POST">
+	<fieldset>
+		<legend>Confirm password with HTML5</legend>
+
+		<div class="form-group">
+			<input class="form-control" name="username" required="" placeholder="username">
+		</div>
+		<input type="password" placeholder="Password" id="password" name="password" required>
+		<input type="password" placeholder="Confirm Password" id="confirmPassword" required>
+		<input type="radio" name="accountType" value="employee" checked> Male<br>
+		<input type="radio" name="accountType" value="administrator"> Female<br>
+		<input type="radio" name="accountType" value="master"> Other
+
+
+		<button type="submit" class="pure-button pure-button-primary">Confirm</button>
+	</fieldset>
+</form>
+
+
+<script type="static/js/custom/createAccount.js"></script>
