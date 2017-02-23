@@ -16,7 +16,7 @@ def home():
     if not session.get('logged_in'):
         return render_template('login.html')
     else:
-        return "Hello Boss!  <a href='/logout'>Logout</a>"
+        return "Hello Time!  <a href='/logout'>Logout</a>"
  
 @app.route('/login', methods=['POST'])
 def do_admin_login():
