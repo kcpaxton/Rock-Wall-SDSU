@@ -14,7 +14,7 @@ app = Flask(__name__)
 def home():
     logMessage('Begin index page')
     if session.get('isLoggedIn'):
-        return "Hello Boss!  <a href='/logout'>Logout</a>"
+        return "Hello Kyle!  <a href='/logout'>Logout</a>"
     else:
         return render_template('login.html')
  
