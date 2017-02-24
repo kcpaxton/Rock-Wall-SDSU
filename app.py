@@ -73,6 +73,11 @@ def createAccountRoute():
     
     #return home()
 
+
+@app.route('/changePassword')
+def changePassword():
+    return render_template('changePassword.html')  
+
 @app.route('/authentication', methods=['POST'])
 def authenticateNewUser():
     logMessage("Start authenticateNewUser")
