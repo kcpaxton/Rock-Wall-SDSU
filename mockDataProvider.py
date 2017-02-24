@@ -9,13 +9,13 @@ engine = create_engine('sqlite:///RockWallDatabase.db', echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
  
-user = User("employee","employee", "employee")
+user = User("employee@gmail.com","employee", "employee")
 session.add(user)
  
-user = User("administrator","administrator", "administrator")
+user = User("admin@gmail.com","administrator", "administrator")
 session.add(user)
  
-user = User("master","master", "master")
+user = User("master@gmail.com","master", "master")
 session.add(user)
  
 # commit the record the database

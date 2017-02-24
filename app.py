@@ -10,61 +10,105 @@ engine = create_engine('sqlite:///RockWallDatabase.db', echo=True)
 app = Flask(__name__)
  
 @app.route('/')
+@app.route('/index')
 def home():
     logMessage('Begin index page')
-
-    if not session.get('logged_in'):
-        return render_template('login.html')
+    if session.get('isLoggedIn'):
+        return "Hello Boss!  <a href='/logout'>Logout</a>"
     else:
-        return "Hello Time!  <a href='/logout'>Logout</ 
+        return render_template('login.html')
+ 
 @app.route('/login', methods=['POST'])
-def do_admin_login():
-    error = None
+def login():
     logMessage('Begin Login Attempt...')
 
-    POST_USERNAME = str(request.form['username'])
-    POST_PASSWORD = str(request.form['password'])
-    POST_ACCOUNTTYPE = str(request.form['accountType'])
+    postEmail = str(request.form['email'])
+    postPassword = str(request.form['password'])
+    postAccountType = str(request.form['accountType'])
 
-    logMessage('Login Attempt: ' + POST_USERNAME + ' ' + POST_PASSWORD + ' ' + POST_ACCOUNTTYPE)
-    Session = sessionmaker(bind=engine)
-    s = Session()
-    query = s.query(User).filter(User.username.in_([POST_USERNAME]), User.password.in_([POST_PASSWORD]), User.accountType.in_([POST_ACCOUNTTYPE]))
-    result = query.first()
+    logMessage('Login Attempt: ' + postEmail + ' ' + postPassword + ' ' + postAccountType)
     
-    if result: 
-        session['logged_in'] = True
+    if checkLoginSucess(postEmail, postPassword, postAccountType): 
+        session['isLoggedIn'] = True
     else:
         error = 'Invalid credentials!'
-        return render_template('login.html', error=error)
-    return home()
+        return render_template('login.html', error = error)
+    return render_template('index.html')
  
-@app.route("/logout")
+@app.route('/logout')
 def logout():
-    session['logged_in'] = False
+    session['isLoggedIn'] = False
     return home()
 
-@app.route("/createAccount", methods=['POST'])
+@app.route('/createAccount')
 def createAccount():
-    logMessage('Begin accountCreation page')
+    return render_template('createAccount.html')  
 
-    if session.get('logged_in'):
-        return render_template('index.html')
-    logMessage('here')
-    POST_USERNAME = str(request.form['username'])
-    logMessage(POST_USERNAME)
-    POST_PASSWORD = str(request.form['password'])
-    logMessage(POST_PASSWORD)
-    POST_ACCOUNTTYPE = str(request.form['accountType'])
-    logMessage('Create Account Attempt: ' + POST_USERNAME + ' ' + POST_PASSWORD + ' ' + POST_ACCOUNTTYPE)
+@app.route('/createAccountRoute', methods=['POST'])
+def createAccountRoute(): 
+    logMessage('Begin Create Account Attempt...')
+    postEmail = str(request.form['email'])
+    postPassword = str(request.form['password'])
+    postConfirmPassword = str(request.form['confirmPassword'])
+    postAccountType = str(request.form['accountType'])
 
+    logMessage('Create Account Attempt: ' + postEmail + ' ' + postPassword + ' ' + postConfirmPassword + ' ' + postAccountType)
 
+    isCreateAccountSuccess = True
+    error = None
+
+    if checkEmailExists(postEmail):
+        error = 'Email already exists!'
+        isCreateAccountSuccess = False
+
+    elif postPassword != postConfirmPassword:
+        error = 'Password do not match!'
+        isCreateAccountSuccess = False
+
+    if isCreateAccountSuccess == False: 
+        return render_template('createAccount.html', error = error)
+   
+    session['creationAccountType'] = postAccountType
+    return render_template('authentication.html', accountType = postAccountType) 
+    
+    #return home()
+
+@app.route('/authentication', methods=['POST'])
+def authenticateNewUser():
+    logMessage("Start authenticateNewUser")
+    postEmail = str(request.form['email'])
+    postPassword = str(request.form['password'])
+    postAccountType = str(request.form['accountType'])
+
+    if checkLoginSucess(postEmail, postPassword, postAccountType):
+        logMessage("Create new Account here.")
+    else:
+        error = 'Invalid credentials!'
+        return render_template('authentication.html', error = error, accountType = session.get('creationAccountType'))
+
+    session['isLoggedIn'] = False
+    return home()
 
 def logMessage(log):
     with open("debugLog.txt", "a") as logFile:
         print('{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now()) + ': ' + str(log) + '\n')
         logFile.write('{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now()) + ': ' + str(log) + '\n')
 
+def checkEmailExists(postEmail):
+    dataBaseSessionMaker = sessionmaker(bind=engine)
+    dataBaseSession = dataBaseSessionMaker()
+    query = dataBaseSession.query(User).filter(User.email.in_([postEmail]))
+    queryResult = query.first()
+
+    return queryResult
+
+def checkLoginSucess(postEmail, postPassword, postAccountType):
+    dataBaseSessionMaker = sessionmaker(bind=engine)
+    databaseSession = dataBaseSessionMaker()
+    query = databaseSession.query(User).filter(User.email.in_([postEmail]), User.password.in_([postPassword]), User.accountType.in_([postAccountType]))
+    queryResult = query.first()
+
+    return queryResult
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)

@@ -1,21 +1,42 @@
 
-<form class="pure-form" action="/createAccount" method="POST">
-	<fieldset>
-		<legend>Confirm password with HTML5</legend>
+{% extends "layout.html" %}
+{%block body %}
+<body>
+  <div class="login-dark">
+     <form action="/createAccountRoute" method="POST">
+        <h2 class="sr-only">Login Form</h2>
+        <div class="illustration">
+           <h1 style="font-size:26px;color:#ffd100;">South Dakota State University</h1>
+           <h1 style="font-size:20px;color:#ffd100;">Rock Wall System</h1>
+        </div>
 
-		<div class="form-group">
-			<input class="form-control" name="username" required="" placeholder="username">
-		</div>
-		<input type="password" placeholder="Password" id="password" name="password" required>
-		<input type="password" placeholder="Confirm Password" id="confirmPassword" required>
-		<input type="radio" name="accountType" value="employee" checked> Male<br>
-		<input type="radio" name="accountType" value="administrator"> Female<br>
-		<input type="radio" name="accountType" value="master"> Other
-
-
-		<button type="submit" class="pure-button pure-button-primary">Confirm</button>
-	</fieldset>
-</form>
-
-
-<script type="static/js/custom/createAccount.js"></script>
+        <div class="form-group">
+           <input class="form-control" name="email" type="email" required="" placeholder="E-Mail">
+        </div>
+        <div class="form-group">
+           <input class="form-control" type="password" name="password" required="" placeholder="Password">
+        </div>
+        <div class="form-group">
+           <input class="form-control" type="password" name="confirmPassword" required="" placeholder="Confirm Password">
+        </div>
+        <div class="radio">
+           <label>
+           <input type="radio" name="accountType" value="employee" checked>Employee</label>
+        </div>
+        <div class="radio">
+           <label>
+           <input type="radio" name="accountType" value="administrator">Administrator</label>
+        </div>
+         {% if error %}
+            <p class=error style="color: yellow"><strong>{{ error }}</strong> 
+         {% endif %}
+        <div class="form-group">
+           <button class="btn btn-primary btn-block" type="submit" style="color:#000000;">Create Account</button>
+        </div>
+        <div class="form-group">
+           <button class="btn btn-primary btn-block" type="submit" style="color:#000000;">Back</button>
+        </div>
+     </form>                 
+  </div>
+</body>
+{% endblock %}

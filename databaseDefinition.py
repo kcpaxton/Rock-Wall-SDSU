@@ -13,14 +13,14 @@ class User(Base):
     __tablename__ = "users"
  
     id = Column(Integer, primary_key=True)
-    username = Column(String)
+    email = Column(String)
     password = Column(String)
     accountType = Column(String)
 
     #----------------------------------------------------------------------
-    def __init__(self, username, password, accountType):
+    def __init__(self, email, password, accountType):
         """"""
-        self.username = username
+        self.email = email
         self.password = password
         self.accountType = accountType
 
