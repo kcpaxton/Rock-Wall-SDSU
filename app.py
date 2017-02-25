@@ -14,7 +14,7 @@ app = Flask(__name__)
 def home():
     logMessage('Begin index page')
     if session.get('isLoggedIn'):
-        return "Hello Kyle!  <a href='/logout'>Logout</a>"
+        return "Hello Boss!  <a href='/logout'>Logout</a>"
     else:
         return render_template('login.html')
  
@@ -69,16 +69,10 @@ def createAccountRoute():
         return render_template('createAccount.html', error = error)
    
     session['creationAccountType'] = postAccountType
-    return render_template('authentication.html', accountType = postAccountType) 
+
+    return render_template('authenticateNewUser.html', accountType = session.get('creationAccountType')) 
     
-    #return home()
-
-
-@app.route('/changePassword')
-def changePassword():
-    return render_template('changePassword.html')  
-
-@app.route('/authentication', methods=['POST'])
+@app.route('/authenticateNewUser', methods=['POST'])
 def authenticateNewUser():
     logMessage("Start authenticateNewUser")
     postEmail = str(request.form['email'])
@@ -89,7 +83,56 @@ def authenticateNewUser():
         logMessage("Create new Account here.")
     else:
         error = 'Invalid credentials!'
-        return render_template('authentication.html', error = error, accountType = session.get('creationAccountType'))
+        return render_template('authenticateNewUser.html', error = error, accountType = session.get('creationAccountType'))
+
+    session['isLoggedIn'] = False
+    return home()
+
+
+@app.route('/changePassword')
+def changePassword():
+    return render_template('changePassword.html')  
+
+@app.route('/changePasswordRoute', methods=['POST'])
+def changePasswordRoute():
+    logMessage('Begin Change Password Attempt...')
+    postEmail = str(request.form['email'])
+    postNewPassword = str(request.form['newPassword'])
+    postConfirmNewPassword = str(request.form['confirmNewPassword'])
+
+    logMessage('Change Password Attempt: ' + postEmail + ' ' + postNewPassword + ' ' + postConfirmNewPassword)
+
+    isChangePasswordSuccess = True
+    error = None
+
+    if not checkEmailExists(postEmail):
+        error = 'Email does not exist!'
+        isChangePasswordSuccess = False
+
+    elif postNewPassword != postConfirmNewPassword:
+        error = 'Password do not match!'
+        isChangePasswordSuccess = False
+
+    if isChangePasswordSuccess == False: 
+        return render_template('changePassword.html', error = error)
+   
+    queryAccountType = findAccountType(postEmail)
+    session['changePasswordAccountType'] = queryAccountType
+
+    return render_template('authenticateChangePassword.html', accountType = session.get('changePasswordAccountType')) 
+
+@app.route('/authenticateChangePassword', methods=['POST'])
+def authenticateChangePassword():
+    logMessage("Start authenticateChangePassword")
+    postEmail = str(request.form['email'])
+    postPassword = str(request.form['password'])
+    postAccountType = str(request.form['accountType'])
+
+    if checkLoginSucess(postEmail, postPassword, postAccountType):
+        logMessage("Update User Password Here")
+    else:
+        error = 'Invalid credentials!'
+        return render_template('authenticateChangePassword.html', error = error, accountType = session.get('changePasswordAccountType'))
 
     session['isLoggedIn'] = False
     return home()
@@ -99,6 +142,17 @@ def logMessage(log):
         print('{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now()) + ': ' + str(log) + '\n')
         logFile.write('{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now()) + ': ' + str(log) + '\n')
 
+def findAccountType(postEmail):
+    logMessage('HERE! WOO')
+    dataBaseSessionMaker = sessionmaker(bind=engine)
+    dataBaseSession = dataBaseSessionMaker()
+    query = dataBaseSession.query(User).filter(User.email.in_([postEmail]))
+    queryResult = query.first()
+
+    logMessage(str(queryResult.accountType))
+
+    return queryResult.accountType
+    
 def checkEmailExists(postEmail):
     dataBaseSessionMaker = sessionmaker(bind=engine)
     dataBaseSession = dataBaseSessionMaker()
