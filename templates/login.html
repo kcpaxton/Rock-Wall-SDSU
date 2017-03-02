@@ -1,43 +1,46 @@
 
 {% extends "layout.html" %}
 {%block body %}
-<body>
-  <div class="login-dark">
-     <form action="/login" method="POST">
-        <h2 class="sr-only">Login Form</h2>
-        <div class="illustration">
-           <h1 style="font-size:26px;color:#ffd100;">South Dakota State University</h1>
-           <h1 style="font-size:20px;color:#ffd100;">Rock Wall System</h1>
-        </div>
 
-        <div class="form-group">
-           <input class="form-control" name="email" type="email" required="" placeholder="E-Mail">
+<body class="page-login center">
+ <form action="/login" method="POST">
+  <div class="center">
+    <div class="card bordered z-depth-2" style="margin:0% auto; max-width:400px;">
+      <div class="card-header">
+        <div class="brand-logo">
+          South Dakota State University
         </div>
-        <div class="form-group">
-           <input class="form-control" type="password" name="password" required="" placeholder="Password">
+        <div class="brand-logo">
+          Wellness Center - Rock Wall
         </div>
-        <div class="radio">
-           <label>
-           <input type="radio" name="accountType" value="employee" checked>Employee</label>
-        </div>
-        <div class="radio">
-           <label>
-           <input type="radio" name="accountType" value="administrator">Administrator</label>
-        </div>
-        <div class="radio">
-           <label>
-           <input type="radio" name="accountType" value="master">Master</label>
-        </div>
+      </div>
+      <div class="card-content">
+        <form class="form-floating">
          {% if error %}
-            <p class=error style="color: yellow"><strong>{{ error }}</strong> 
+            <p class=error style="color: #0032a0"><strong>{{ error }}</strong> 
          {% endif %}
-        <div class="form-group">
-           <button class="btn btn-primary btn-block" type="submit" style="color:#000000;">Login </button>
+          <div class="form-group">
+           <input class="form-control" name="email" type="email" required="" placeholder="E-Mail">
+          </div>
+          <div class="form-group">
+           <input class="form-control" type="password" name="password" required="" placeholder="Password">
+          </div>
         </div>
-        <br>
-        <a href="createAccount" class="forgot"><b>Create New Account<b></a>
-        <a href="changePassword" class="forgot">Reset Password?</a>
-     </form>                 
+      </form>
+      <div class="card-action clearfix">
+          <div align="left">
+            <button type="submit" class="button"><strong>Login</strong></button>
+          </div>
+        <div>
+          <a href="createAccount" style="color: #0032a0"><b>Create New Account<b></a>
+        </div>
+        <div>
+          <a href="changePassword" style="color: #0032a0">Change/Reset Password</a>
+        </div>
+      </div>
+    </div>
   </div>
-</body>
+</div>
+</div>
+
 {% endblock %}

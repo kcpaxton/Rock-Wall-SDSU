@@ -6,16 +6,16 @@ from databaseDefinition import *
 engine = create_engine('sqlite:///RockWallDatabase.db', echo=True)
  
 # create a Session
-Session = sessionmaker(bind=engine)
-session = Session()
+databaseSessionMaker = sessionmaker(bind=engine)
+session = databaseSessionMaker()
  
-user = User("employee@gmail.com","employee", "employee")
+user = User("e@gmail.com","abc123", "employee")
 session.add(user)
  
-user = User("admin@gmail.com","administrator", "administrator")
+user = User("a@gmail.com","abc123", "administrator")
 session.add(user)
  
-user = User("master@gmail.com","master", "master")
+user = User("m@gmail.com","abc123", "master")
 session.add(user)
  
 # commit the record the database

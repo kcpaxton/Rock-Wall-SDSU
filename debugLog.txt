@@ -1,28 +1,1071 @@
-2017-02-19 23:59:28: Begin index page
-2017-02-20 00:00:44: Begin index page
-2017-02-20 00:04:52: Begin index page
-2017-02-20 00:04:57: Begin index page
-2017-02-20 00:05:08: Begin Login Attempt...
-2017-02-20 00:05:08: Login Attempt: administrator administrator employee
-2017-02-20 00:05:18: Begin Login Attempt...
-2017-02-20 00:05:18: Login Attempt: master mastER master
-2017-02-20 00:05:24: Begin Login Attempt...
-2017-02-20 00:05:24: Login Attempt: master master employee
-2017-02-20 00:05:31: Begin Login Attempt...
-2017-02-20 00:05:31: Login Attempt: master master master
-2017-02-20 00:05:31: Begin index page
-2017-02-20 00:05:34: Begin index page
-2017-02-20 00:08:56: Begin index page
-2017-02-20 00:08:56: Begin index page
-2017-02-22 10:29:57: Begin index page
-2017-02-22 10:30:14: Begin Login Attempt...
-2017-02-22 10:30:14: Login Attempt: employee employee employee
-2017-02-22 10:30:14: Begin index page
-2017-02-22 10:30:16: Begin index page
-2017-02-22 16:59:42: Begin index page
-2017-02-22 16:59:50: Begin Login Attempt...
-2017-02-22 16:59:50: Login Attempt: employee employee administrator
-2017-02-22 16:59:57: Begin Login Attempt...
-2017-02-22 16:59:57: Login Attempt: employee employee employee
-2017-02-22 16:59:57: Begin index page
-2017-02-22 17:00:02: Begin index page
+2017-02-27 16:45:49: Begin changePassword
+2017-02-27 16:46:47: Begin home
+2017-02-27 16:46:50: Begin changePassword
+2017-02-27 16:47:03: Begin changePasswordRoute
+2017-02-27 16:48:22: Begin changePassword
+2017-02-27 16:48:38: Begin changePasswordRoute
+2017-02-27 16:50:29: Begin changePassword
+2017-02-27 16:50:40: Begin changePasswordRoute
+2017-02-27 16:59:06: Begin changePassword
+2017-02-27 16:59:21: Begin changePasswordRoute
+2017-02-27 16:59:21: Begin findAccountType
+2017-02-27 16:59:21: employee
+2017-02-27 16:59:55: Begin changePassword
+2017-02-27 17:00:09: Begin changePasswordRoute
+2017-02-27 17:00:09: Begin findAccountType
+2017-02-27 17:00:09: employee
+2017-02-27 17:00:09: employee2@gmail.comhelloemployee
+2017-02-27 17:00:09: employee2@gmail.comhellohelloemployee
+2017-02-27 17:00:09: before if not
+2017-02-27 17:00:09: Begin checkEmailExists
+2017-02-27 17:00:09: Begin findAccountType
+2017-02-27 17:04:55: Begin changePassword
+2017-02-27 17:05:02: Begin changePasswordRoute
+2017-02-27 17:05:02: Begin findAccountType
+2017-02-27 17:05:02: employee
+2017-02-27 17:05:02: employee2@gmail.comabc123employee
+2017-02-27 17:05:02: employee2@gmail.comabc123abc123employee
+2017-02-27 17:05:02: before if not
+2017-02-27 17:05:02: Begin checkEmailExists
+2017-02-27 17:05:02: Begin findAccountType
+2017-02-27 17:09:17: Begin changePasswordRoute
+2017-02-27 17:09:17: Begin findAccountType
+2017-02-27 17:10:39: Begin home
+2017-02-27 17:10:41: Begin createAccount
+2017-02-27 17:11:13: Begin home
+2017-02-27 17:11:22: Begin changePassword
+2017-02-27 17:11:29: Begin changePasswordRoute
+2017-02-27 17:11:29: Begin findAccountType
+2017-02-27 17:11:29: Here
+2017-02-27 17:19:32: Begin changePassword
+2017-02-27 17:19:46: Begin changePasswordRoute
+2017-02-27 17:19:46: Begin findAccountType
+2017-02-27 17:19:46: Here
+2017-02-27 17:20:35: Begin changePasswordRoute
+2017-02-27 17:20:35: Begin findAccountType
+2017-02-27 17:20:35: Here
+2017-02-27 17:20:41: Begin changePassword
+2017-02-27 17:20:57: Begin changePasswordRoute
+2017-02-27 17:20:57: Begin findAccountType
+2017-02-27 17:20:58: Here
+2017-02-27 17:21:20: Begin changePassword
+2017-02-27 17:21:31: Begin changePasswordRoute
+2017-02-27 17:21:31: Begin findAccountType
+2017-02-27 17:21:31: Here
+2017-02-27 17:21:51: Begin changePassword
+2017-02-27 17:22:00: Begin changePasswordRoute
+2017-02-27 17:22:00: Begin findAccountType
+2017-02-27 17:22:00: Here
+2017-02-27 17:22:26: Begin home
+2017-02-27 17:22:32: Begin createAccount
+2017-02-27 17:22:38: Begin changePassword
+2017-02-27 17:22:46: Begin changePasswordRoute
+2017-02-27 17:22:46: Begin findAccountType
+2017-02-27 17:22:46: Here
+2017-02-27 17:22:46: employee2@gmail.comabc123employee
+2017-02-27 17:22:46: employee2@gmail.comabc123abc123employee
+2017-02-27 17:22:46: before if not
+2017-02-27 17:22:46: Begin checkEmailExists
+2017-02-27 17:22:46: Begin findAccountType
+2017-02-27 17:23:36: Begin changePassword
+2017-02-27 17:23:44: Begin changePasswordRoute
+2017-02-27 17:23:44: Begin findAccountType
+2017-02-27 17:23:44: Here
+2017-02-27 17:24:31: Begin changePassword
+2017-02-27 17:24:40: Begin changePasswordRoute
+2017-02-27 17:24:40: Begin findAccountType
+2017-02-27 17:24:40: Here
+2017-02-27 17:26:23: Begin changePassword
+2017-02-27 17:26:37: Begin changePasswordRoute
+2017-02-27 17:26:37: Begin findAccountType
+2017-02-27 17:26:37: Here
+2017-02-27 17:26:37: <databaseDefinition.User object at 0x04424050>
+2017-02-27 17:26:37: employee2@gmail.comabc123employee
+2017-02-27 17:26:37: employee2@gmail.comabc123abc123employee
+2017-02-27 17:26:37: before if not
+2017-02-27 17:26:37: Begin checkEmailExists
+2017-02-27 17:26:37: Begin findAccountType
+2017-02-27 17:30:12: Begin changePassword
+2017-02-27 17:30:23: Begin changePasswordRoute
+2017-02-27 17:30:23: Begin findAccountType
+2017-02-27 17:30:23: employee2@gmail.comabc123employee
+2017-02-27 17:30:23: employee2@gmail.comabc123abc123employee
+2017-02-27 17:30:23: before if not
+2017-02-27 17:30:23: Begin checkEmailExists
+2017-02-27 17:30:23: Begin findAccountType
+2017-02-27 17:31:30: Begin changePassword
+2017-02-27 17:31:36: Begin changePasswordRoute
+2017-02-27 17:31:36: Begin findAccountType
+2017-02-27 17:32:07: Begin changePassword
+2017-02-27 17:32:12: Begin changePasswordRoute
+2017-02-27 17:32:12: Begin findAccountType
+2017-02-27 17:36:04: Begin changePassword
+2017-02-27 17:36:24: Begin changePasswordRoute
+2017-02-27 17:36:24: Begin findAccountType
+2017-02-27 17:36:40: Begin changePassword
+2017-02-27 17:36:51: Begin changePassword
+2017-02-27 17:37:09: Begin changePasswordRoute
+2017-02-27 17:37:09: Begin findAccountType
+2017-02-27 17:41:13: Begin changePassword
+2017-02-27 17:41:28: Begin changePasswordRoute
+2017-02-27 17:41:28: Begin findAccountType
+2017-02-27 17:43:11: Begin changePassword
+2017-02-27 17:43:18: Begin changePasswordRoute
+2017-02-27 17:43:18: Begin findAccountType
+2017-02-27 17:51:23: Begin changePassword
+2017-02-27 17:51:29: Begin changePasswordRoute
+2017-02-27 17:51:29: Begin findAccountType
+2017-02-27 17:56:10: Begin changePassword
+2017-02-27 17:56:18: Begin changePasswordRoute
+2017-02-27 17:56:18: Begin findAccountType
+2017-02-27 18:01:27: Begin home
+2017-02-27 18:01:30: Begin changePassword
+2017-02-27 18:01:37: Begin changePasswordRoute
+2017-02-27 18:01:37: Begin findAccountType
+2017-02-27 18:03:59: Begin changePassword
+2017-02-27 18:04:07: Begin changePasswordRoute
+2017-02-27 18:04:07: Begin findAccountType
+2017-02-27 18:04:16: Begin changePassword
+2017-02-27 18:04:22: Begin changePasswordRoute
+2017-02-27 18:04:22: Begin findAccountType
+2017-02-27 18:06:56: Begin changePassword
+2017-02-27 18:07:06: Begin changePasswordRoute
+2017-02-27 18:07:06: Begin findAccountType
+2017-02-27 18:07:47: Begin changePassword
+2017-02-27 18:08:03: Begin changePasswordRoute
+2017-02-27 18:08:03: Begin findAccountType
+2017-02-27 18:10:25: Begin home
+2017-02-27 18:10:30: Begin login
+2017-02-27 18:10:30: Begin checkLoginSucess
+2017-02-27 18:10:34: Begin changePassword
+2017-02-27 18:10:40: Begin changePasswordRoute
+2017-02-27 18:10:40: Begin findAccountType
+2017-02-27 18:11:41: Begin changePassword
+2017-02-27 18:11:42: Begin changePassword
+2017-02-27 18:11:53: Begin changePasswordRoute
+2017-02-27 18:11:53: Begin findAccountType
+2017-02-27 18:11:53: None
+2017-02-27 18:12:30: Begin home
+2017-02-27 18:12:31: Begin createAccount
+2017-02-27 18:12:38: Begin changePassword
+2017-02-27 18:12:43: Begin changePasswordRoute
+2017-02-27 18:12:43: Begin findAccountType
+2017-02-27 18:12:43: ('employee',)
+2017-02-27 18:13:09: Begin home
+2017-02-27 18:13:15: Begin login
+2017-02-27 18:13:15: Begin checkLoginSucess
+2017-02-27 18:13:20: Begin login
+2017-02-27 18:13:20: Begin checkLoginSucess
+2017-02-27 18:13:22: Begin changePassword
+2017-02-27 18:13:29: Begin changePasswordRoute
+2017-02-27 18:13:29: Begin findAccountType
+2017-02-27 18:13:29: employee@gmail.comabc123('employee',)
+2017-02-27 18:13:29: employee@gmail.comabc123abc123('employee',)
+2017-02-27 18:13:29: before if not
+2017-02-27 18:13:29: Begin checkEmailExists
+2017-02-27 18:13:29: Begin findAccountType
+2017-02-27 18:17:43: Begin changePassword
+2017-02-27 18:17:48: Begin changePasswordRoute
+2017-02-27 18:17:48: Begin findAccountType
+2017-02-27 18:17:48: employee@gmail.com employee
+2017-02-27 18:17:48: admin@gmail.com administrator
+2017-02-27 18:17:48: master@gmail.com master
+2017-02-27 18:17:48: master@gmail.com master
+2017-02-27 18:17:48: employee2@gmail.com employee
+2017-02-27 18:19:31: Begin changePassword
+2017-02-27 18:19:37: Begin changePasswordRoute
+2017-02-27 18:19:37: Begin findAccountType
+2017-02-27 18:20:34: Begin changePassword
+2017-02-27 18:20:40: Begin changePasswordRoute
+2017-02-27 18:20:40: Begin findAccountType
+2017-02-27 18:20:40: employee@gmail.comabc123employee
+2017-02-27 18:20:40: employee@gmail.comabc123abc123employee
+2017-02-27 18:20:40: before if not
+2017-02-27 18:20:40: Begin checkEmailExists
+2017-02-27 18:20:40: Begin findAccountType
+2017-02-27 18:27:43: Begin home
+2017-02-27 18:27:49: Begin changePassword
+2017-02-27 18:28:01: Begin changePasswordRoute
+2017-02-27 18:28:01: Begin findAccountType
+2017-02-27 18:28:01: employee@gmail.comabc123employee
+2017-02-27 18:28:01: employee@gmail.comabc123abc123employee
+2017-02-27 18:28:01: before if not
+2017-02-27 18:28:01: Begin checkEmailExists
+2017-02-27 18:28:01: Begin findAccountType
+2017-02-27 18:28:20: Begin authenticateChangePassword
+2017-02-27 18:28:20: Begin checkLoginSucess
+2017-02-27 18:28:20: Begin changePassword
+2017-02-27 18:28:20: Begin deleteUser
+2017-02-27 18:28:56: Begin home
+2017-02-27 18:28:57: Begin changePassword
+2017-02-27 18:29:09: Begin changePasswordRoute
+2017-02-27 18:29:09: Begin findAccountType
+2017-02-27 18:29:09: employee2@gmail.comabc1234employee
+2017-02-27 18:29:09: employee2@gmail.comabc1234abc1234employee
+2017-02-27 18:29:09: before if not
+2017-02-27 18:29:09: Begin checkEmailExists
+2017-02-27 18:29:09: Begin findAccountType
+2017-02-27 18:29:19: Begin authenticateChangePassword
+2017-02-27 18:29:19: Begin checkLoginSucess
+2017-02-27 18:29:19: Begin changePassword
+2017-02-27 18:29:19: Begin deleteUser
+2017-02-27 18:34:35: Begin home
+2017-02-27 18:34:42: Begin home
+2017-02-27 18:34:42: Begin changePassword
+2017-02-27 18:34:55: Begin changePasswordRoute
+2017-02-27 18:34:55: Begin findAccountType
+2017-02-27 18:34:55: employee2@gmail.comabc1234employee
+2017-02-27 18:34:55: employee2@gmail.comabc1234abc1234employee
+2017-02-27 18:34:56: before if not
+2017-02-27 18:34:56: Begin checkEmailExists
+2017-02-27 18:34:56: Begin findAccountType
+2017-02-27 18:35:06: Begin authenticateChangePassword
+2017-02-27 18:35:06: Begin checkLoginSucess
+2017-02-27 18:35:06: Begin changePassword
+2017-02-27 18:35:06: Begin deleteUser
+2017-02-27 18:37:42: Begin changePassword
+2017-02-27 18:37:54: Begin changePasswordRoute
+2017-02-27 18:37:54: Begin findAccountType
+2017-02-27 18:37:54: employee2@gmail.comabc1234employee
+2017-02-27 18:37:54: employee2@gmail.comabc1234abc1234employee
+2017-02-27 18:37:54: before if not
+2017-02-27 18:37:54: Begin checkEmailExists
+2017-02-27 18:37:54: Begin findAccountType
+2017-02-27 18:38:03: Begin authenticateChangePassword
+2017-02-27 18:38:03: Begin checkLoginSucess
+2017-02-27 18:38:03: Begin changePassword
+2017-02-27 18:38:03: Begin deleteUser
+2017-02-27 18:39:18: Begin home
+2017-02-27 18:39:23: Begin changePassword
+2017-02-27 18:39:35: Begin changePasswordRoute
+2017-02-27 18:39:35: Begin findAccountType
+2017-02-27 18:39:35: employee@gmail.comkyle123employee
+2017-02-27 18:39:35: employee@gmail.comkyle123kyle123employee
+2017-02-27 18:39:35: before if not
+2017-02-27 18:39:35: Begin checkEmailExists
+2017-02-27 18:39:35: Begin findAccountType
+2017-02-27 18:39:47: Begin authenticateChangePassword
+2017-02-27 18:39:47: Begin checkLoginSucess
+2017-02-27 18:40:01: Begin authenticateChangePassword
+2017-02-27 18:40:01: Begin checkLoginSucess
+2017-02-27 18:40:01: Begin changePassword
+2017-02-27 18:40:01: Begin deleteUser
+2017-02-27 18:41:54: Begin home
+2017-02-27 18:41:54: Begin changePassword
+2017-02-27 18:42:06: Begin changePasswordRoute
+2017-02-27 18:42:06: Begin findAccountType
+2017-02-27 18:42:06: employee2@gmail.comabc1234employee
+2017-02-27 18:42:06: employee2@gmail.comabc1234abc1234employee
+2017-02-27 18:42:06: before if not
+2017-02-27 18:42:06: Begin checkEmailExists
+2017-02-27 18:42:06: Begin findAccountType
+2017-02-27 18:42:16: Begin authenticateChangePassword
+2017-02-27 18:42:16: Begin checkLoginSucess
+2017-02-27 18:42:16: Begin changePassword
+2017-02-27 18:42:16: Begin deleteUser
+2017-02-27 18:42:32: Begin home
+2017-02-27 18:42:33: Begin changePassword
+2017-02-27 18:42:47: Begin changePasswordRoute
+2017-02-27 18:42:47: Begin findAccountType
+2017-02-27 18:42:47: employee@gmail.comabc123employee
+2017-02-27 18:42:47: employee@gmail.comabc123abc123employee
+2017-02-27 18:42:47: before if not
+2017-02-27 18:42:47: Begin checkEmailExists
+2017-02-27 18:42:47: Begin findAccountType
+2017-02-27 18:42:58: Begin changePasswordRoute
+2017-02-27 18:42:58: Begin findAccountType
+2017-02-27 18:42:58: employee@gmail.comabc1234employee
+2017-02-27 18:42:58: employee@gmail.comabc1234abc1234employee
+2017-02-27 18:42:58: before if not
+2017-02-27 18:42:58: Begin checkEmailExists
+2017-02-27 18:42:58: Begin findAccountType
+2017-02-27 18:43:11: Begin authenticateChangePassword
+2017-02-27 18:43:11: Begin checkLoginSucess
+2017-02-27 18:43:11: Begin changePassword
+2017-02-27 18:43:11: Begin deleteUser
+2017-02-27 18:44:35: Begin home
+2017-02-27 18:44:37: Begin changePassword
+2017-02-27 18:44:45: Begin changePasswordRoute
+2017-02-27 18:44:45: Begin findAccountType
+2017-02-27 18:44:45: employee2@gmail.comabc1234employee
+2017-02-27 18:44:45: employee2@gmail.comabc1234abc1234employee
+2017-02-27 18:44:45: before if not
+2017-02-27 18:44:45: Begin checkEmailExists
+2017-02-27 18:44:45: Begin findAccountType
+2017-02-27 18:44:59: Begin authenticateChangePassword
+2017-02-27 18:44:59: Begin checkLoginSucess
+2017-02-27 18:44:59: Begin changePassword
+2017-02-27 18:44:59: Begin deleteUser
+2017-02-27 18:45:15: Begin changePassword
+2017-02-27 18:45:27: Begin changePasswordRoute
+2017-02-27 18:45:27: Begin findAccountType
+2017-02-27 18:45:27: employee@gmail.comabc123employee
+2017-02-27 18:45:27: employee@gmail.comabc123abc123employee
+2017-02-27 18:45:27: before if not
+2017-02-27 18:45:27: Begin checkEmailExists
+2017-02-27 18:45:27: Begin findAccountType
+2017-02-27 18:45:41: Begin authenticateChangePassword
+2017-02-27 18:45:41: Begin checkLoginSucess
+2017-02-27 18:45:41: Begin changePassword
+2017-02-27 18:45:41: Begin deleteUser
+2017-02-27 18:48:41: Begin home
+2017-02-27 18:48:45: Begin changePassword
+2017-02-27 18:49:07: Begin changePasswordRoute
+2017-02-27 18:49:07: Begin findAccountType
+2017-02-27 18:49:07: employee@gmail.comabc123employee
+2017-02-27 18:49:07: employee@gmail.comabc123abc123employee
+2017-02-27 18:49:07: before if not
+2017-02-27 18:49:07: Begin checkEmailExists
+2017-02-27 18:49:07: Begin findAccountType
+2017-02-27 18:49:16: Begin authenticateChangePassword
+2017-02-27 18:49:16: Begin checkLoginSucess
+2017-02-27 18:49:16: Begin changePassword
+2017-02-27 18:49:16: Begin deleteUser
+2017-02-27 18:50:06: Begin changePassword
+2017-02-27 18:50:18: Begin changePasswordRoute
+2017-02-27 18:50:18: Begin findAccountType
+2017-02-27 18:50:18: employee@gmail.comabc123employee
+2017-02-27 18:50:18: employee@gmail.comabc123abc123employee
+2017-02-27 18:50:18: before if not
+2017-02-27 18:50:18: Begin checkEmailExists
+2017-02-27 18:50:18: Begin findAccountType
+2017-02-27 18:50:28: Begin authenticateChangePassword
+2017-02-27 18:50:28: Begin checkLoginSucess
+2017-02-27 18:50:28: Begin changePassword
+2017-02-27 18:50:28: Begin deleteUser
+2017-02-27 18:51:11: Begin changePassword
+2017-02-27 18:51:18: Begin changePasswordRoute
+2017-02-27 18:51:18: Begin findAccountType
+2017-02-27 18:51:18: employee@gmail.comabc123employee
+2017-02-27 18:51:18: employee@gmail.comabc123abc123employee
+2017-02-27 18:51:18: before if not
+2017-02-27 18:51:18: Begin checkEmailExists
+2017-02-27 18:51:18: Begin findAccountType
+2017-02-27 18:51:32: Begin authenticateChangePassword
+2017-02-27 18:51:32: Begin checkLoginSucess
+2017-02-27 18:51:32: Begin changePassword
+2017-02-27 18:51:32: Begin deleteUser
+2017-02-27 18:52:11: Begin changePassword
+2017-02-27 18:52:23: Begin changePasswordRoute
+2017-02-27 18:52:23: Begin findAccountType
+2017-02-27 18:52:23: employee@gmail.comabc1234employee
+2017-02-27 18:52:23: employee@gmail.comabc1234abc1234employee
+2017-02-27 18:52:23: before if not
+2017-02-27 18:52:23: Begin checkEmailExists
+2017-02-27 18:52:23: Begin findAccountType
+2017-02-27 18:52:31: Begin authenticateChangePassword
+2017-02-27 18:52:31: Begin checkLoginSucess
+2017-02-27 18:52:31: Begin changePassword
+2017-02-27 18:52:31: Begin deleteUser
+2017-02-27 18:53:26: Begin home
+2017-02-27 18:53:27: Begin changePassword
+2017-02-27 18:53:40: Begin changePasswordRoute
+2017-02-27 18:53:40: Begin findAccountType
+2017-02-27 18:53:40: employee@gmail.comabc123employee
+2017-02-27 18:53:40: employee@gmail.comabc123abc123employee
+2017-02-27 18:53:40: before if not
+2017-02-27 18:53:40: Begin checkEmailExists
+2017-02-27 18:53:40: Begin findAccountType
+2017-02-27 18:54:01: Begin authenticateChangePassword
+2017-02-27 18:54:01: Begin checkLoginSucess
+2017-02-27 18:54:01: Begin changePassword
+2017-02-27 18:54:01: Begin deleteUser
+2017-02-27 18:54:02: Begin addUser
+2017-02-27 18:54:02: Begin home
+2017-02-27 18:54:23: Begin changePassword
+2017-02-27 18:54:45: Begin changePasswordRoute
+2017-02-27 18:54:45: Begin findAccountType
+2017-02-27 18:54:45: employee@gmail.comdog123employee
+2017-02-27 18:54:45: employee@gmail.comdog123dog123employee
+2017-02-27 18:54:45: before if not
+2017-02-27 18:54:45: Begin checkEmailExists
+2017-02-27 18:54:45: Begin findAccountType
+2017-02-27 18:54:52: Begin authenticateChangePassword
+2017-02-27 18:54:52: Begin checkLoginSucess
+2017-02-27 18:54:52: Begin changePassword
+2017-02-27 18:54:52: Begin deleteUser
+2017-02-27 18:54:52: Begin addUser
+2017-02-27 18:54:52: Begin home
+2017-02-27 18:55:07: Begin login
+2017-02-27 18:55:07: Begin checkLoginSucess
+2017-02-27 21:10:22: Begin home
+2017-03-01 00:17:18: Begin home
+2017-03-01 00:17:19: Begin home
+2017-03-01 00:21:10: Begin home
+2017-03-01 00:22:05: Begin home
+2017-03-01 00:22:35: Begin home
+2017-03-01 00:23:09: Begin home
+2017-03-01 00:23:43: Begin home
+2017-03-01 00:23:55: Begin home
+2017-03-01 00:24:26: Begin home
+2017-03-01 00:25:13: Begin home
+2017-03-01 00:25:15: Begin home
+2017-03-01 00:28:22: Begin home
+2017-03-01 00:29:54: Begin home
+2017-03-01 00:30:15: Begin home
+2017-03-01 00:31:58: Begin home
+2017-03-01 00:32:16: Begin home
+2017-03-01 00:32:17: Begin home
+2017-03-01 00:32:22: Begin home
+2017-03-01 00:32:22: Begin home
+2017-03-01 00:32:24: Begin home
+2017-03-01 00:33:17: Begin home
+2017-03-01 00:33:18: Begin home
+2017-03-01 00:33:56: Begin home
+2017-03-01 00:34:00: Begin home
+2017-03-01 00:34:10: Begin home
+2017-03-01 00:34:31: Begin home
+2017-03-01 00:34:38: Begin home
+2017-03-01 00:34:39: Begin home
+2017-03-01 00:36:02: Begin home
+2017-03-01 00:36:03: Begin home
+2017-03-01 00:36:08: Begin home
+2017-03-01 00:36:12: Begin home
+2017-03-01 00:36:34: Begin home
+2017-03-01 00:36:36: Begin home
+2017-03-01 00:36:37: Begin home
+2017-03-01 00:36:37: Begin home
+2017-03-01 00:37:01: Begin home
+2017-03-01 00:37:02: Begin home
+2017-03-01 00:37:04: Begin home
+2017-03-01 00:37:04: Begin home
+2017-03-01 00:37:05: Begin home
+2017-03-01 00:37:13: Begin home
+2017-03-01 00:37:14: Begin home
+2017-03-01 00:37:15: Begin home
+2017-03-01 00:37:16: Begin home
+2017-03-01 00:37:38: Begin home
+2017-03-01 00:37:48: Begin home
+2017-03-01 00:39:21: Begin home
+2017-03-01 00:39:22: Begin home
+2017-03-01 00:39:31: Begin home
+2017-03-01 00:39:59: Begin home
+2017-03-01 00:40:01: Begin home
+2017-03-01 00:40:26: Begin home
+2017-03-01 00:40:27: Begin home
+2017-03-01 00:40:55: Begin home
+2017-03-01 00:42:08: Begin home
+2017-03-01 00:42:09: Begin home
+2017-03-01 00:42:10: Begin home
+2017-03-01 00:42:30: Begin home
+2017-03-01 00:42:31: Begin home
+2017-03-01 00:43:01: Begin home
+2017-03-01 00:43:07: Begin home
+2017-03-01 00:43:37: Begin home
+2017-03-01 00:43:42: Begin home
+2017-03-01 00:43:44: Begin home
+2017-03-01 00:43:44: Begin home
+2017-03-01 00:43:47: Begin home
+2017-03-01 00:43:48: Begin home
+2017-03-01 00:43:49: Begin home
+2017-03-01 00:43:49: Begin home
+2017-03-01 00:43:51: Begin home
+2017-03-01 00:43:52: Begin home
+2017-03-01 00:44:03: Begin home
+2017-03-01 00:44:04: Begin home
+2017-03-01 00:44:05: Begin home
+2017-03-01 00:44:11: Begin home
+2017-03-01 00:44:12: Begin home
+2017-03-01 00:45:37: Begin home
+2017-03-01 00:46:20: Begin home
+2017-03-01 00:46:22: Begin home
+2017-03-01 00:48:21: Begin home
+2017-03-01 00:48:22: Begin home
+2017-03-01 00:49:13: Begin home
+2017-03-01 00:49:14: Begin home
+2017-03-01 00:49:16: Begin home
+2017-03-01 00:49:38: Begin home
+2017-03-01 00:49:48: Begin home
+2017-03-01 00:49:50: Begin home
+2017-03-01 00:50:14: Begin home
+2017-03-01 00:50:15: Begin home
+2017-03-01 00:50:23: Begin home
+2017-03-01 00:50:23: Begin home
+2017-03-01 00:50:25: Begin home
+2017-03-01 00:51:04: Begin home
+2017-03-01 00:51:05: Begin home
+2017-03-01 00:51:22: Begin home
+2017-03-01 00:51:23: Begin home
+2017-03-01 09:13:21: Begin home
+2017-03-01 09:13:23: Begin home
+2017-03-01 09:13:46: Begin home
+2017-03-01 09:13:47: Begin home
+2017-03-01 09:13:48: Begin home
+2017-03-01 09:14:12: Begin home
+2017-03-01 09:14:47: Begin home
+2017-03-01 09:14:51: Begin home
+2017-03-01 09:14:53: Begin home
+2017-03-01 09:15:07: Begin home
+2017-03-01 09:15:21: Begin home
+2017-03-01 09:15:22: Begin home
+2017-03-01 09:15:23: Begin home
+2017-03-01 09:15:25: Begin home
+2017-03-01 09:15:26: Begin home
+2017-03-01 09:15:27: Begin home
+2017-03-01 09:15:28: Begin home
+2017-03-01 09:15:29: Begin home
+2017-03-01 09:15:30: Begin home
+2017-03-01 09:15:41: Begin home
+2017-03-01 09:15:42: Begin home
+2017-03-01 09:15:43: Begin home
+2017-03-01 09:15:44: Begin home
+2017-03-01 09:15:45: Begin home
+2017-03-01 09:15:58: Begin home
+2017-03-01 09:15:59: Begin home
+2017-03-01 09:16:01: Begin home
+2017-03-01 09:17:00: Begin home
+2017-03-01 09:17:01: Begin home
+2017-03-01 09:17:08: Begin home
+2017-03-01 09:17:09: Begin home
+2017-03-01 09:19:54: Begin home
+2017-03-01 09:19:55: Begin home
+2017-03-01 09:19:57: Begin home
+2017-03-01 09:20:03: Begin home
+2017-03-01 09:20:57: Begin home
+2017-03-01 09:21:18: Begin home
+2017-03-01 09:21:35: Begin home
+2017-03-01 09:21:35: Begin changePassword
+2017-03-01 09:21:39: Begin home
+2017-03-01 09:22:16: Begin home
+2017-03-01 09:22:28: Begin home
+2017-03-01 09:22:30: Begin home
+2017-03-01 09:22:42: Begin home
+2017-03-01 09:22:45: Begin home
+2017-03-01 09:22:49: Begin home
+2017-03-01 09:23:55: Begin home
+2017-03-01 09:24:23: Begin home
+2017-03-01 09:24:24: Begin home
+2017-03-01 09:24:25: Begin home
+2017-03-01 09:24:28: Begin home
+2017-03-01 09:24:37: Begin home
+2017-03-01 09:24:37: Begin home
+2017-03-01 09:24:40: Begin home
+2017-03-01 09:24:48: Begin home
+2017-03-01 09:29:10: Begin home
+2017-03-01 09:29:11: Begin home
+2017-03-01 09:29:17: Begin home
+2017-03-01 09:29:18: Begin home
+2017-03-01 09:29:32: Begin home
+2017-03-01 09:29:33: Begin home
+2017-03-01 09:29:35: Begin home
+2017-03-01 09:30:20: Begin home
+2017-03-01 09:30:22: Begin home
+2017-03-01 09:30:37: Begin home
+2017-03-01 09:31:06: Begin home
+2017-03-01 09:35:12: Begin home
+2017-03-01 09:35:17: Begin home
+2017-03-01 09:35:25: Begin home
+2017-03-01 09:35:26: Begin home
+2017-03-01 09:46:26: Begin home
+2017-03-01 09:46:46: Begin home
+2017-03-01 09:48:09: Begin home
+2017-03-01 09:48:39: Begin home
+2017-03-01 09:49:07: Begin home
+2017-03-01 09:49:23: Begin home
+2017-03-01 09:49:36: Begin home
+2017-03-01 09:50:09: Begin home
+2017-03-01 09:50:48: Begin home
+2017-03-01 09:50:59: Begin home
+2017-03-01 09:51:03: Begin home
+2017-03-01 09:51:09: Begin home
+2017-03-01 09:51:44: Begin home
+2017-03-01 09:54:51: Begin home
+2017-03-01 09:54:52: Begin home
+2017-03-01 09:54:57: Begin home
+2017-03-01 09:55:25: Begin home
+2017-03-01 09:55:50: Begin home
+2017-03-01 09:55:58: Begin home
+2017-03-01 09:56:10: Begin home
+2017-03-01 09:57:18: Begin home
+2017-03-01 09:57:22: Begin home
+2017-03-01 09:57:32: Begin home
+2017-03-01 09:57:45: Begin home
+2017-03-01 09:57:53: Begin home
+2017-03-01 09:58:03: Begin home
+2017-03-01 09:59:36: Begin home
+2017-03-01 09:59:41: Begin home
+2017-03-01 10:12:03: Begin home
+2017-03-01 10:12:16: Begin home
+2017-03-01 10:12:33: Begin home
+2017-03-01 10:13:44: Begin home
+2017-03-01 10:16:05: Begin home
+2017-03-01 10:16:15: Begin home
+2017-03-01 10:16:33: Begin home
+2017-03-01 10:17:15: Begin home
+2017-03-01 10:17:46: Begin home
+2017-03-01 10:18:02: Begin home
+2017-03-01 10:18:34: Begin home
+2017-03-01 10:20:13: Begin home
+2017-03-01 10:20:21: Begin home
+2017-03-01 10:20:57: Begin home
+2017-03-01 10:21:07: Begin home
+2017-03-01 10:21:17: Begin home
+2017-03-01 10:23:43: Begin home
+2017-03-01 10:24:25: Begin home
+2017-03-01 10:24:40: Begin home
+2017-03-01 10:27:36: Begin home
+2017-03-01 10:28:22: Begin home
+2017-03-01 10:28:39: Begin home
+2017-03-01 10:28:54: Begin home
+2017-03-01 10:29:03: Begin home
+2017-03-01 10:29:45: Begin home
+2017-03-01 10:30:34: Begin home
+2017-03-01 10:30:43: Begin home
+2017-03-01 10:30:54: Begin home
+2017-03-01 10:31:20: Begin home
+2017-03-01 10:31:28: Begin home
+2017-03-01 10:31:43: Begin home
+2017-03-01 10:31:49: Begin home
+2017-03-01 10:31:54: Begin home
+2017-03-01 10:32:33: Begin home
+2017-03-01 10:34:41: Begin home
+2017-03-01 10:35:05: Begin home
+2017-03-01 10:35:25: Begin home
+2017-03-01 10:35:46: Begin home
+2017-03-01 10:35:58: Begin home
+2017-03-01 10:36:22: Begin home
+2017-03-01 10:36:24: Begin home
+2017-03-01 10:37:50: Begin home
+2017-03-01 10:38:02: Begin home
+2017-03-01 10:38:22: Begin home
+2017-03-01 10:38:34: Begin home
+2017-03-01 10:39:22: Begin home
+2017-03-01 10:40:35: Begin home
+2017-03-01 10:40:53: Begin home
+2017-03-01 10:41:11: Begin home
+2017-03-01 10:41:24: Begin home
+2017-03-01 10:41:28: Begin home
+2017-03-01 10:41:36: Begin home
+2017-03-01 10:41:42: Begin home
+2017-03-01 10:41:54: Begin home
+2017-03-01 10:43:03: Begin home
+2017-03-01 10:43:18: Begin home
+2017-03-01 10:43:38: Begin home
+2017-03-01 10:44:37: Begin home
+2017-03-01 10:44:54: Begin home
+2017-03-01 10:45:11: Begin home
+2017-03-01 10:45:33: Begin home
+2017-03-01 10:45:45: Begin home
+2017-03-01 10:45:55: Begin home
+2017-03-01 10:47:26: Begin home
+2017-03-01 10:48:06: Begin home
+2017-03-01 10:48:39: Begin home
+2017-03-01 10:48:58: Begin home
+2017-03-01 10:49:17: Begin home
+2017-03-01 10:49:58: Begin home
+2017-03-01 10:50:46: Begin home
+2017-03-01 10:51:13: Begin home
+2017-03-01 10:51:13: Begin home
+2017-03-01 10:51:24: Begin home
+2017-03-01 10:52:14: Begin home
+2017-03-01 10:52:35: Begin home
+2017-03-01 10:52:53: Begin home
+2017-03-01 10:53:18: Begin home
+2017-03-01 11:23:09: Begin home
+2017-03-01 11:23:25: Begin home
+2017-03-01 11:23:27: Begin home
+2017-03-01 11:23:29: Begin home
+2017-03-01 11:24:54: Begin home
+2017-03-01 11:24:57: Begin home
+2017-03-01 11:25:05: Begin login
+2017-03-01 11:25:05: Begin checkLoginSucess
+2017-03-01 11:25:11: Begin login
+2017-03-01 11:25:11: Begin checkLoginSucess
+2017-03-01 11:25:17: Begin login
+2017-03-01 11:25:17: Begin checkLoginSucess
+2017-03-01 11:25:35: Begin home
+2017-03-01 11:25:37: Begin logout
+2017-03-01 11:25:37: Begin home
+2017-03-01 11:25:42: Begin login
+2017-03-01 11:25:42: Begin checkLoginSucess
+2017-03-01 14:57:33: Begin login
+2017-03-01 14:57:33: Begin checkLoginSucess
+2017-03-01 14:57:33: Begin login
+2017-03-01 14:57:33: Begin checkLoginSucess
+2017-03-01 14:57:33: Begin login
+2017-03-01 14:57:33: Begin checkLoginSucess
+2017-03-01 14:57:33: Begin login
+2017-03-01 14:57:33: Begin checkLoginSucess
+2017-03-01 14:57:33: Begin home
+2017-03-01 14:57:33: Begin home
+2017-03-01 14:57:33: Begin home
+2017-03-01 14:57:33: Begin home
+2017-03-01 14:57:33: Begin home
+2017-03-01 14:57:51: Begin home
+2017-03-01 16:33:37: Begin changePassword
+2017-03-01 16:33:41: Begin home
+2017-03-01 16:34:55: Begin home
+2017-03-01 16:36:33: Begin login
+2017-03-01 16:36:33: Begin checkLoginSucess
+2017-03-01 16:36:39: Begin login
+2017-03-01 16:36:39: Begin checkLoginSucess
+2017-03-01 16:36:43: Begin login
+2017-03-01 16:36:44: Begin checkLoginSucess
+2017-03-01 16:36:46: Begin home
+2017-03-01 16:36:49: Begin home
+2017-03-01 16:36:53: Begin logout
+2017-03-01 16:36:53: Begin home
+2017-03-01 16:47:38: Begin home
+2017-03-01 16:47:42: Begin home
+2017-03-01 16:47:48: Begin home
+2017-03-01 16:47:55: Begin home
+2017-03-01 16:48:17: Begin home
+2017-03-01 16:48:22: Begin home
+2017-03-01 16:48:26: Begin home
+2017-03-01 16:49:38: Begin home
+2017-03-01 16:50:57: Begin home
+2017-03-01 17:03:11: Begin logout
+2017-03-01 17:03:11: Begin home
+2017-03-01 17:03:18: Begin home
+2017-03-01 19:43:26: Begin home
+2017-03-01 19:44:16: Begin home
+2017-03-01 19:45:06: Begin home
+2017-03-01 19:45:43: Begin home
+2017-03-01 19:45:48: Begin home
+2017-03-01 19:46:04: Begin home
+2017-03-01 19:46:47: Begin home
+2017-03-01 19:47:33: Begin home
+2017-03-01 19:47:56: Begin home
+2017-03-01 19:47:58: Begin createAccount
+2017-03-01 19:48:58: Begin home
+2017-03-01 19:49:00: Begin changePassword
+2017-03-01 19:49:40: Begin home
+2017-03-01 19:50:13: Begin home
+2017-03-01 19:50:35: Begin home
+2017-03-01 19:50:37: Begin createAccount
+2017-03-01 19:57:20: Begin createAccount
+2017-03-01 20:00:05: Begin createAccount
+2017-03-01 20:00:07: Begin createAccount
+2017-03-01 20:00:36: Begin createAccount
+2017-03-01 20:02:08: Begin createAccount
+2017-03-01 20:02:53: Begin createAccount
+2017-03-01 20:04:16: Begin createAccount
+2017-03-01 20:05:53: Begin createAccount
+2017-03-01 20:06:17: Begin createAccount
+2017-03-01 20:06:58: Begin createAccount
+2017-03-01 20:07:13: Begin createAccount
+2017-03-01 20:07:19: Begin createAccount
+2017-03-01 20:07:26: Begin createAccount
+2017-03-01 20:07:35: Begin createAccount
+2017-03-01 20:12:13: Begin createAccount
+2017-03-01 20:13:59: Begin createAccount
+2017-03-01 20:14:33: Begin createAccount
+2017-03-01 20:14:34: Begin createAccount
+2017-03-01 20:14:48: Begin createAccount
+2017-03-01 20:14:53: Begin createAccount
+2017-03-01 20:15:12: Begin createAccount
+2017-03-01 20:17:15: Begin createAccount
+2017-03-01 20:19:24: Begin changePassword
+2017-03-01 20:19:27: Begin createAccount
+2017-03-01 20:19:32: Begin createAccount
+2017-03-01 20:20:33: Begin createAccount
+2017-03-01 20:20:56: Begin home
+2017-03-01 20:20:58: Begin createAccount
+2017-03-01 20:21:18: Begin createAccount
+2017-03-01 20:21:31: Begin createAccount
+2017-03-01 20:22:06: Begin createAccount
+2017-03-01 20:22:13: Begin createAccount
+2017-03-01 20:22:35: Begin createAccount
+2017-03-01 20:22:42: Begin createAccount
+2017-03-01 20:23:07: Begin createAccount
+2017-03-01 20:23:13: Begin createAccount
+2017-03-01 20:23:31: Begin createAccount
+2017-03-01 20:24:28: Begin createAccount
+2017-03-01 20:25:16: Begin createAccount
+2017-03-01 20:25:29: Begin createAccount
+2017-03-01 20:27:08: Begin home
+2017-03-01 20:27:12: Begin createAccount
+2017-03-01 20:27:35: Begin createAccount
+2017-03-01 20:27:44: Begin createAccount
+2017-03-01 20:29:21: Begin createAccount
+2017-03-01 20:30:08: Begin createAccount
+2017-03-01 20:31:23: Begin createAccount
+2017-03-01 20:32:39: Begin createAccount
+2017-03-01 20:32:45: Begin createAccountRoute
+2017-03-01 20:32:45: here
+2017-03-01 20:32:45: employee@gmail.comabc123abc123employee
+2017-03-01 20:32:45: Begin checkEmailExists
+2017-03-01 20:33:08: Begin createAccountRoute
+2017-03-01 20:33:08: here
+2017-03-01 20:33:08: employee@gmail.comabc123abc123employee
+2017-03-01 20:33:08: Begin checkEmailExists
+2017-03-01 20:34:14: Begin changePassword
+2017-03-01 20:34:17: Begin changePassword
+2017-03-01 20:34:18: Begin changePassword
+2017-03-01 20:36:02: Begin changePassword
+2017-03-01 20:36:30: Begin createAccount
+2017-03-01 20:37:04: Begin createAccount
+2017-03-01 20:37:23: Begin createAccount
+2017-03-01 20:37:30: Begin createAccount
+2017-03-01 20:37:41: Begin createAccount
+2017-03-01 20:37:49: Begin changePassword
+2017-03-01 20:38:05: Begin changePassword
+2017-03-01 20:38:17: Begin changePassword
+2017-03-01 20:39:23: Begin changePassword
+2017-03-01 20:39:31: Begin changePassword
+2017-03-01 20:39:49: Begin createAccountRoute
+2017-03-01 20:40:02: Begin changePassword
+2017-03-01 20:40:15: Begin changePasswordRoute
+2017-03-01 20:40:15: Begin findAccountType
+2017-03-01 20:40:15: employee@gmail.comabc1234employee
+2017-03-01 20:40:15: employee@gmail.comabc1234abc1234employee
+2017-03-01 20:40:15: before if not
+2017-03-01 20:40:15: Begin checkEmailExists
+2017-03-01 20:40:15: Begin findAccountType
+2017-03-01 20:44:57: Begin changePassword
+2017-03-01 20:45:11: Begin changePasswordRoute
+2017-03-01 20:45:11: Begin findAccountType
+2017-03-01 20:45:11: employee@gmail.comabc123employee
+2017-03-01 20:45:11: employee@gmail.comabc123abc123employee
+2017-03-01 20:45:11: before if not
+2017-03-01 20:45:11: Begin checkEmailExists
+2017-03-01 20:45:11: Begin findAccountType
+2017-03-01 20:52:23: Begin home
+2017-03-01 20:52:30: Begin home
+2017-03-01 20:52:30: Begin home
+2017-03-01 20:53:25: Begin home
+2017-03-01 20:55:07: Begin home
+2017-03-01 20:55:08: Begin home
+2017-03-01 20:55:09: Begin home
+2017-03-01 20:55:09: Begin home
+2017-03-01 20:55:57: Begin home
+2017-03-01 20:56:31: Begin home
+2017-03-01 20:56:40: Begin home
+2017-03-01 20:56:42: Begin home
+2017-03-01 20:56:45: Begin home
+2017-03-01 20:58:31: Begin home
+2017-03-01 20:59:05: Begin home
+2017-03-01 20:59:40: Begin home
+2017-03-01 21:00:27: Begin home
+2017-03-01 21:00:36: Begin home
+2017-03-01 21:01:40: Begin home
+2017-03-01 21:01:43: Begin home
+2017-03-01 21:01:51: Begin home
+2017-03-01 21:02:20: Begin home
+2017-03-01 21:03:05: Begin home
+2017-03-01 21:03:07: Begin home
+2017-03-01 21:03:09: Begin home
+2017-03-01 21:03:30: Begin home
+2017-03-01 21:04:51: Begin home
+2017-03-01 21:05:44: Begin home
+2017-03-01 21:05:52: Begin home
+2017-03-01 21:08:54: Begin home
+2017-03-01 21:11:52: Begin home
+2017-03-01 21:12:01: Begin changePassword
+2017-03-01 21:12:08: Begin changePassword
+2017-03-01 21:12:09: Begin changePassword
+2017-03-01 21:12:10: Begin changePassword
+2017-03-01 21:12:12: Begin createAccount
+2017-03-01 21:12:37: Begin createAccountRoute
+2017-03-01 21:12:37: here
+2017-03-01 21:12:37: employee3@gmail.comabc123abc123administrator
+2017-03-01 21:12:37: Begin checkEmailExists
+2017-03-01 21:13:27: Begin createAccountRoute
+2017-03-01 21:13:27: here
+2017-03-01 21:13:27: employee3@gmail.comabc1234abc1234administrator
+2017-03-01 21:13:27: Begin checkEmailExists
+2017-03-01 21:14:53: Begin createAccountRoute
+2017-03-01 21:14:53: here
+2017-03-01 21:14:53: employee3@gmail.comabc1234abc1234administrator
+2017-03-01 21:14:53: Begin checkEmailExists
+2017-03-01 21:15:15: Begin createAccountRoute
+2017-03-01 21:15:15: here
+2017-03-01 21:15:15: employee3@gmail.comabc1234abc1234administrator
+2017-03-01 21:15:15: Begin checkEmailExists
+2017-03-01 21:16:53: Begin createAccountRoute
+2017-03-01 21:16:53: here
+2017-03-01 21:16:53: employee3@gmail.comabc1234abc1234administrator
+2017-03-01 21:16:53: Begin checkEmailExists
+2017-03-01 21:21:37: Begin home
+2017-03-01 21:21:38: Begin home
+2017-03-01 21:23:35: Begin home
+2017-03-01 21:23:38: Begin home
+2017-03-01 21:24:02: Begin home
+2017-03-01 21:24:19: Begin home
+2017-03-01 21:25:10: Begin home
+2017-03-01 21:25:58: Begin home
+2017-03-01 21:27:28: Begin home
+2017-03-01 21:29:05: Begin home
+2017-03-01 21:29:50: Begin home
+2017-03-01 21:29:58: Begin home
+2017-03-01 21:30:30: Begin home
+2017-03-01 21:38:55: Begin home
+2017-03-01 21:39:03: Begin login
+2017-03-01 21:39:03: Begin checkLoginSucess
+2017-03-01 21:39:11: Begin login
+2017-03-01 21:39:11: Begin checkLoginSucess
+2017-03-01 21:39:16: Begin login
+2017-03-01 21:39:16: Begin checkLoginSucess
+2017-03-01 21:39:18: Begin createAccount
+2017-03-01 21:39:37: Begin createAccountRoute
+2017-03-01 21:39:37: here
+2017-03-01 21:39:37: mattgollaher@gmail.comabc123abc123employee
+2017-03-01 21:39:37: Begin checkEmailExists
+2017-03-01 21:39:48: Begin createAccountRoute
+2017-03-01 21:39:48: here
+2017-03-01 21:39:48: mattgollaher@gmail.comabc123abc123employee
+2017-03-01 21:39:48: Begin checkEmailExists
+2017-03-01 21:40:22: Begin createAccountRoute
+2017-03-01 21:40:22: here
+2017-03-01 21:40:22: mattgollaher@gmail.comabc123abc123employee
+2017-03-01 21:40:22: Begin checkEmailExists
+2017-03-01 21:40:35: Begin createAccountRoute
+2017-03-01 21:40:35: here
+2017-03-01 21:40:35: mattgollaher@gmail.comemployee123employee123employee
+2017-03-01 21:40:35: Begin checkEmailExists
+2017-03-01 21:41:20: Begin createAccountRoute
+2017-03-01 21:41:20: here
+2017-03-01 21:41:20: mattgollaher@gmail.comemployee@gmail.comABCmeow123!!!employee
+2017-03-01 21:41:20: Begin checkEmailExists
+2017-03-01 21:41:29: Begin createAccountRoute
+2017-03-01 21:41:29: here
+2017-03-01 21:41:29: employee@gmail.comABCmeow123!!ABCmewo123!!!employee
+2017-03-01 21:41:29: Begin checkEmailExists
+2017-03-01 21:41:39: Begin createAccountRoute
+2017-03-01 21:41:39: here
+2017-03-01 21:41:39: abc@gmail.comabc123abc123employee
+2017-03-01 21:41:39: Begin checkEmailExists
+2017-03-01 21:42:52: Begin createAccountRoute
+2017-03-01 21:42:52: here
+2017-03-01 21:42:52: abc@gmail.comabc123abc123employee
+2017-03-01 21:42:52: Begin checkEmailExists
+2017-03-01 21:43:00: Begin login
+2017-03-01 21:43:00: Begin checkLoginSucess
+2017-03-01 21:43:21: Begin createAccount
+2017-03-01 21:43:22: Begin changePassword
+2017-03-01 21:43:25: Begin changePassword
+2017-03-01 21:43:45: Begin createAccountRoute
+2017-03-01 21:43:45: here
+2017-03-01 21:43:45: employee2@gmail.comabc123abc123employee
+2017-03-01 21:43:45: Begin checkEmailExists
+2017-03-01 21:43:54: Begin createAccountRoute
+2017-03-01 21:43:54: here
+2017-03-01 21:43:54: employee3@gmail.comabc123abc123employee
+2017-03-01 21:43:54: Begin checkEmailExists
+2017-03-01 21:44:01: Begin login
+2017-03-01 21:44:01: Begin checkLoginSucess
+2017-03-01 21:44:09: Begin home
+2017-03-01 21:44:09: Begin home
+2017-03-01 21:44:11: Begin logout
+2017-03-01 21:44:11: Begin home
+2017-03-01 21:51:07: Begin home
+2017-03-01 21:52:00: Begin login
+2017-03-01 21:52:00: Begin checkLoginSucess
+2017-03-01 21:52:05: Begin createAccount
+2017-03-01 21:52:28: Begin createAccountRoute
+2017-03-01 21:52:28: here
+2017-03-01 21:52:28: 1@gmail.comabc123abc123employee
+2017-03-01 21:52:28: Begin checkEmailExists
+2017-03-01 21:52:36: Begin login
+2017-03-01 21:52:36: Begin checkLoginSucess
+2017-03-01 21:56:29: Begin home
+2017-03-01 21:56:31: Begin logout
+2017-03-01 21:56:31: Begin home
+2017-03-01 21:56:40: Begin createAccount
+2017-03-01 21:56:55: Begin createAccountRoute
+2017-03-01 21:56:55: here
+2017-03-01 21:56:55: e1@gmail.comabc123abc123employee
+2017-03-01 21:56:55: Begin checkEmailExists
+2017-03-01 21:57:07: Begin authenticateCreateAccount
+2017-03-01 21:57:07: Begin findAccountType
+2017-03-01 21:57:07: Begin checkLoginSucess
+2017-03-01 21:57:07: Begin addUser
+2017-03-01 21:57:07: Begin home
+2017-03-01 21:59:14: Begin home
+2017-03-01 21:59:16: Begin changePassword
+2017-03-01 21:59:26: Begin changePasswordRoute
+2017-03-01 21:59:26: Begin findAccountType
+2017-03-01 21:59:26: e1@gmail.comabc1234employee
+2017-03-01 21:59:26: e1@gmail.comabc1234abc1234employee
+2017-03-01 21:59:26: before if not
+2017-03-01 21:59:26: Begin checkEmailExists
+2017-03-01 21:59:26: Begin findAccountType
+2017-03-01 22:00:06: Begin home
+2017-03-01 22:00:30: Begin home
+2017-03-01 22:00:32: Begin changePassword
+2017-03-01 22:00:48: Begin changePasswordRoute
+2017-03-01 22:00:48: Begin findAccountType
+2017-03-01 22:00:48: e1@gmail.comabc123employee
+2017-03-01 22:00:48: e1@gmail.comabc123abc123employee
+2017-03-01 22:00:48: before if not
+2017-03-01 22:00:48: Begin checkEmailExists
+2017-03-01 22:00:48: Begin findAccountType
+2017-03-01 22:00:58: Begin authenticateChangePassword
+2017-03-01 22:01:56: Begin home
+2017-03-01 22:02:01: Begin changePassword
+2017-03-01 22:02:15: Begin changePasswordRoute
+2017-03-01 22:02:15: Begin findAccountType
+2017-03-01 22:02:15: e1@gmail.comabc123employee
+2017-03-01 22:02:15: e1@gmail.comabc123abc123employee
+2017-03-01 22:02:15: before if not
+2017-03-01 22:02:15: Begin checkEmailExists
+2017-03-01 22:02:15: Begin findAccountType
+2017-03-01 22:02:33: Begin authenticateChangePassword
+2017-03-01 22:02:33: Begin findAccountType
+2017-03-01 22:02:33: Begin checkLoginSucess
+2017-03-01 22:02:33: Begin changePassword
+2017-03-01 22:02:33: Begin deleteUser
+2017-03-01 22:02:33: Begin addUser
+2017-03-01 22:02:33: Begin home
+2017-03-01 22:02:52: Begin changePassword
+2017-03-01 22:03:08: Begin changePasswordRoute
+2017-03-01 22:03:08: Begin findAccountType
+2017-03-01 22:03:08: e1@gmail.comabc1234employee
+2017-03-01 22:03:08: e1@gmail.comabc1234abc1234employee
+2017-03-01 22:03:08: before if not
+2017-03-01 22:03:08: Begin checkEmailExists
+2017-03-01 22:03:08: Begin findAccountType
+2017-03-01 22:03:24: Begin authenticateChangePassword
+2017-03-01 22:03:24: Begin findAccountType
+2017-03-01 22:03:24: Begin checkLoginSucess
+2017-03-01 22:03:24: Begin changePassword
+2017-03-01 22:03:24: Begin deleteUser
+2017-03-01 22:03:24: Begin addUser
+2017-03-01 22:03:24: Begin home
+2017-03-01 22:06:00: Begin home
+2017-03-01 22:06:07: Begin createAccount
+2017-03-01 22:06:09: Begin changePassword
+2017-03-01 22:06:10: Begin changePassword
+2017-03-01 22:13:55: Begin home
+2017-03-01 22:27:34: Begin home
+2017-03-01 22:29:51: Begin home
+2017-03-01 22:29:59: Begin home
+2017-03-01 22:30:06: Begin home
+2017-03-01 22:30:27: Begin home
+2017-03-01 22:31:21: Begin home
+2017-03-01 22:31:25: Begin home
+2017-03-01 22:33:54: Begin home
+2017-03-01 22:35:05: Begin home
+2017-03-01 22:38:02: Begin home
+2017-03-01 22:38:05: Begin home
+2017-03-01 22:39:21: Begin home
+2017-03-01 23:08:44: Begin home
+2017-03-01 23:11:23: Begin home
+2017-03-01 23:11:48: Begin home
+2017-03-01 23:12:06: Begin home
+2017-03-01 23:12:10: Begin createAccount
+2017-03-01 23:12:11: Begin changePassword
+2017-03-01 23:12:21: Begin home
+2017-03-01 23:22:07: Begin home
+2017-03-01 23:40:29: Begin home
+2017-03-01 23:53:31: Begin home
+2017-03-01 23:53:31: Begin home
+2017-03-01 23:53:31: Begin home
+2017-03-01 23:53:31: Begin home
+2017-03-01 23:53:36: Begin createAccount
+2017-03-01 23:53:39: Begin home
+2017-03-02 00:06:36: Begin home
+2017-03-02 00:09:28: Begin home
+2017-03-02 00:09:28: Begin home
+2017-03-02 00:16:27: Begin home
+2017-03-02 00:24:48: Begin home
+2017-03-02 00:24:50: Begin changePassword
+2017-03-02 00:24:51: Begin createAccount
+2017-03-02 00:24:56: Begin changePassword
+2017-03-02 00:24:57: Begin createAccount
+2017-03-02 00:24:59: Begin changePassword
+2017-03-02 00:25:00: Begin createAccount
+2017-03-02 00:25:01: Begin changePassword
+2017-03-02 00:25:07: Begin home
+2017-03-02 00:40:34: Begin home
+2017-03-02 00:51:21: Begin home
